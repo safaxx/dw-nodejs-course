@@ -4,7 +4,7 @@ const url = require('url');
 
 const myServer = http.createServer((req, res) => {
   //processes incoming requests
-  const log = `${Date.now()}: ${req.url}: New Request Received\n`;
+  const log = `${Date.now()}: ${req.method}: ${req.url}: New Request Received\n`;
   if(req.url === "/favicon.ico") return res.end();
   const parsed = url.parse(req.url, true);
   console.log(parsed);

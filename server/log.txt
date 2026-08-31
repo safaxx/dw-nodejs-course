@@ -39,3 +39,5 @@
 1787980256976: /about?name=elham: New Request Received
 1787980260970: /about?name=safa: New Request Received
 1787980265318: /about: New Request Received
+1787981336507: GET: /: New Request Received
+1787981341634: GET: /about: New Request Received
